@@ -15,7 +15,7 @@ public class Biblioteca {
     //Composicion: La biblioteca contiene Libros
     private ArrayList<Libro> libros = new ArrayList<>();
     
-    private void agregarLibro(Libro libro) {
+    public void agregarLibro(Libro libro) {
         libros.add(libro);
     }
     
