@@ -43,7 +43,7 @@ public class Libro {
     public void setGenero (Genero genero) {
         this.genero = genero;
     }
-    
+
     //Mostrar el titulo y autor
     public void mostrarInfo(){
         System.out.println("Título:" + this.titulo);
