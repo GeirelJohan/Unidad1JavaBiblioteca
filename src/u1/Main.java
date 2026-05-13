@@ -25,12 +25,5 @@ public class Main {
         
         biblioteca.listarLibros();
         System.out.println("Libros creados: " + Libro.getContadorLibros());
-        
-        //Respuestas de la Actividad
-        System.out.println("--------------------------------------------------");
-        System.out.println("         Respuestas de la Actividad \n1-El id no se puede modificar por que este es solo\npara identificar un libro (objeto) de manera unica");
-        System.out.println("--------------------------------------------------");
-        System.out.println("2-Si se cambia una variable final me da un error\nde java ya que esta asociada con el id y no lo\npuedo modificar");
-        System.out.println("--------------------------------------------------");
     }
 }
