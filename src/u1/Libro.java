@@ -33,4 +33,9 @@ public class Libro {
     public void setAutor(String autor) {
         this.autor = autor;
     }
+    
+    public void mostrarInfo(){
+        System.out.println("Título:" + this.titulo);
+        System.out.println("Autor:" + this.autor);
+    }
 }
