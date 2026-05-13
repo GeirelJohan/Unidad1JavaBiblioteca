@@ -22,7 +22,7 @@ public class Biblioteca {
     public void listarLibros() {
         for (Libro l : libros) {
             l.mostrarInfo();
-            System.out.println("---------------");
+            System.out.println("--------------------------------------------------");
         }
     }
 }

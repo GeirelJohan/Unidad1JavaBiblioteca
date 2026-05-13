@@ -12,5 +12,6 @@ public enum Genero {
     FICCION,
     CIENCIA,
     HISTORIA,
-    INFANTIL
+    INFANTIL,
+    TERROR
 }

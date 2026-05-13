@@ -58,9 +58,9 @@ public class Libro {
 
     //Mostrar el titulo y autor
     public void mostrarInfo(){
-        System.out.println("Título :" + this.titulo);
+        System.out.println("Titulo: " + this.titulo);
         System.out.println("Autor: " + this.autor);
-        System.out.println("Genero :" + this.genero);
+        System.out.println("Genero: " + this.genero);
         System.out.println("Id: " + this.id);
     }
 }
