@@ -14,9 +14,11 @@ public class Libro {
     private String autor;
     private Genero genero;
     private static int contadorLibros = 0;
+    private final int id;
 
     //Constructor
     public Libro(String titulo, String autor, Genero genero) {
+        this.id = contadorLibros + 1;
         this.titulo = titulo;
         this.autor = autor;
         this.genero = genero;
@@ -49,11 +51,16 @@ public class Libro {
     public static int getContadorLibros() {
         return contadorLibros;
     }
+    //ID
+    public int getId() {
+        return id;
+    }
 
     //Mostrar el titulo y autor
     public void mostrarInfo(){
-        System.out.println("Título:" + this.titulo);
-        System.out.println("Autor:" + this.autor);
-        System.out.println("Genero:" + this.genero);
+        System.out.println("Título :" + this.titulo);
+        System.out.println("Autor: " + this.autor);
+        System.out.println("Genero :" + this.genero);
+        System.out.println("Id: " + this.id);
     }
 }
