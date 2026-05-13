@@ -13,12 +13,14 @@ public class Libro {
     private String titulo;
     private String autor;
     private Genero genero;
+    private static int contadorLibros = 0;
 
     //Constructor
     public Libro(String titulo, String autor, Genero genero) {
         this.titulo = titulo;
         this.autor = autor;
         this.genero = genero;
+        contadorLibros++;
     }
 
     //Metodos de acceso (getters y setters)
@@ -42,6 +44,10 @@ public class Libro {
     }
     public void setGenero (Genero genero) {
         this.genero = genero;
+    }
+    //ContadorLibros
+    public static int getContadorLibros() {
+        return contadorLibros;
     }
 
     //Mostrar el titulo y autor
